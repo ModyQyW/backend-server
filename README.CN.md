@@ -74,7 +74,7 @@ yarn stop:pm2 [id got from yarn list:pm2]
 - [koa-bodyparser](https://github.com/koajs/bodyparser)：koa 的 body 解析器，基于co-body
 - [@koa/router](https://github.com/koajs/router)：koa 的路由中间件
 - [koa2-cors](https://github.com/zadzbw/koa2-cors)：koa2 的 CORS 中间件
-- [mime](https://vuetifyjs.com/en/)：一个全面，紧凑的MIME类型模块
+- [mime](https://github.com/broofa/node-mime)：一个全面，紧凑的MIME类型模块
 - [pm2](http://pm2.keymetrics.io/)：Node.js的高级生产流程管理器
 - [eslint](https://eslint.org)：一个为 JavaScript 提供了可插入的规范代码能力的开源项目，这个项目里使用了 [standard](https://standardjs.com/readme-zhcn.html)
 

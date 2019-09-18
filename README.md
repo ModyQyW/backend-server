@@ -76,7 +76,7 @@ No deployment now. Pull requests are welcome.
 - [koa-bodyparser](https://github.com/koajs/bodyparser) - A body parser for koa, base on co-body
 - [@koa/router](https://github.com/koajs/router) - Router middleware for koa
 - [koa2-cors](https://github.com/zadzbw/koa2-cors) - CORS middleware for koa2
-- [mime](https://vuetifyjs.com/en/) - A comprehensive, compact MIME type module
+- [mime](https://github.com/broofa/node-mime) - A comprehensive, compact MIME type module
 - [pm2](http://pm2.keymetrics.io/) - Advanced, production process manager for Node.js
 - [eslint](https://eslint.org) - An open source project provided a pluggable linting utility for JavaScript, using [standard](https://standardjs.com/) in the project
 
