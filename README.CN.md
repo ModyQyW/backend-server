@@ -84,13 +84,13 @@ yarn stop:pm2 [id got from yarn list:pm2]
 
 ## 版本命名
 
-使用 [SemVer](http://semver.org/) 进行版本控制。有关可用版本，请参阅此仓库的 [releases](https://github.com/ModyQyW/vue-vuetify-admin/releases)。
+使用 [SemVer](http://semver.org/) 进行版本控制。有关可用版本，请参阅此仓库的 [releases](https://github.com/ModyQyW/backend-server/releases)。
 
 ## 作者
 
 - **Rui Wu** - *最初工作* - [ModyQyW](https://github.com/ModyQyW)
 
-另请参阅参与此项目的 [contributors](https://github.com/ModyQyW/vue-vuetify-admin/contributors) 列表。
+另请参阅参与此项目的 [contributors](https://github.com/ModyQyW/backend-server/contributors) 列表。
 
 ## 协议
 
