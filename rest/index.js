@@ -1,7 +1,7 @@
 module.exports = {
   ApiError: function (msg) {
     // this 指向调用者
-    this.success = false
+    this.suc = false
     this.msg = msg || 'Unknown Error'
   },
   restify: (prefix = '/api') => {
@@ -13,7 +13,7 @@ module.exports = {
           ctx.rest = data => {
             ctx.response.type = 'application/json'
             ctx.response.body = {
-              success: true,
+              suc: true,
               msg: 'OK',
               data
             }
@@ -24,7 +24,7 @@ module.exports = {
           ctx.response.status = 200
           ctx.response.type = 'application/json'
           ctx.response.body = {
-            success: false,
+            suc: false,
             msg: e.msg || 'Unknown Error'
           }
         }
