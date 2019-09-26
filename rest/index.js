@@ -8,7 +8,6 @@ module.exports = {
     return async (ctx, next) => {
       // 默认 Rest API 前缀为 /api
       if (ctx.request.path.startsWith(prefix)) {
-        console.log(`Process API ${ctx.request.method} ${ctx.request.url}...`)
         try {
           ctx.rest = data => {
             ctx.response.type = 'application/json'
@@ -20,7 +19,6 @@ module.exports = {
           }
           await next()
         } catch (e) {
-          console.log('Process API error...')
           ctx.response.status = 200
           ctx.response.type = 'application/json'
           ctx.response.body = {
