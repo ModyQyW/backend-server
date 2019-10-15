@@ -11,8 +11,8 @@
     "stop:pm2": "pm2 stop"
   },
   "dependencies": {
-    "@koa/router": "^8.0.1",
-    "koa": "^2.8.1",
+    "@koa/router": "^8.0.2",
+    "koa": "^2.10.0",
     "koa-bodyparser": "^4.2.1",
     "koa-logger": "^3.2.1",
     "koa2-cors": "^2.0.6",
@@ -20,7 +20,7 @@
     "pm2": "^3.5.1"
   },
   "devDependencies": {
-    "eslint": "^6.4.0",
+    "eslint": "^6.5.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
