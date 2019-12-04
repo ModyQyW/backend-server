@@ -18,16 +18,16 @@
     "koa-logger": "^3.2.1",
     "koa2-cors": "^2.0.6",
     "mime": "^2.4.4",
-    "pm2": "^4.1.2"
+    "pm2": "^4.2.0"
   },
   "devDependencies": {
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.2",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "lint-staged": "^9.4.3"
+    "lint-staged": "^9.5.0"
   },
   "eslintConfig": {
     "root": true,
@@ -38,7 +38,12 @@
       "standard"
     ]
   },
-  "eslintIgnore": ["node_modules/**/*"],
+  "eslintIgnore": [
+    "node_modules/**/*"
+  ],
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
   "lint-staged": {
     "./**/*.js": [
       "eslint",
