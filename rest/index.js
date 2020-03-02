@@ -1,12 +1,12 @@
 module.exports = {
   ApiError: function (msg) {
-    // this 指向调用者
+    // this is equal to caller
     this.suc = false
     this.msg = msg || 'Unknown Error'
   },
   restify: (prefix = '/api') => {
     return async (ctx, next) => {
-      // 默认 Rest API 前缀为 /api
+      // default Rest API prefix is /api
       if (ctx.request.path.startsWith(prefix)) {
         try {
           ctx.rest = data => {
