@@ -1,7 +1,7 @@
 {
   "name": "backend-server",
   "version": "0.1.0",
-  "author": "ModyQyW <261857860@qq.com>",
+  "author": "ModyQyW <wurui7@mail3.sysu.edu.com>",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -14,7 +14,7 @@
   "dependencies": {
     "@koa/router": "^8.0.8",
     "koa": "^2.11.0",
-    "koa-bodyparser": "^4.2.1",
+    "koa-bodyparser": "^4.3.0",
     "koa-logger": "^3.2.1",
     "koa2-cors": "^2.0.6",
     "mime": "^2.4.4",
