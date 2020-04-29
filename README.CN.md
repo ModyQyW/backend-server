@@ -1,5 +1,7 @@
 # backend-server
 
+**已废弃**
+
 使用 koa2 构建的简单后端服务器。
 
 English | [简体中文](README.CN.md)

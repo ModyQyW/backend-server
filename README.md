@@ -1,5 +1,7 @@
 # backend-server
 
+**DEPRECATED**
+
 A simple backend server, built with koa2.
 
 English | [简体中文](README.CN.md)
